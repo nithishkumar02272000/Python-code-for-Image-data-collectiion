@@ -16,7 +16,7 @@ This Python script allows you to capture face images of an employee from differe
    ```shell
    pip install opencv-python gtts
 
-##Usage
+## Usage
 --Run the script by executing the following command:
 data_collection_1.py
 Enter the employee's name when prompted.
@@ -29,7 +29,7 @@ Enter the employee's name when prompted.
 
 --The captured images will be saved in a directory named after the employee's name. Each angle's images will be stored in separate subdirectories.
 
-##Notes
+## Notes
 --Make sure to have a webcam connected and properly configured.
 
 --Adjust the num_images_per_angle variable in the code to control the number of images captured for each angle.
