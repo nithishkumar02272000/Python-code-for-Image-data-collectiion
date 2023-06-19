@@ -17,25 +17,25 @@ This Python script allows you to capture face images of an employee from differe
    pip install opencv-python gtts
 
 ## Usage
---Run the script by executing the following command:
+- Run the script by executing the following command:
 data_collection_1.py
 Enter the employee's name when prompted.
 
---The script will guide you to position your face towards different angles (face, right, left) by providing audio instructions and beeping sounds.
+- The script will guide you to position your face towards different angles (face, right, left) by providing audio instructions and beeping sounds.
 
---For each angle, the script will capture a specified number of images from the webcam.
+- For each angle, the script will capture a specified number of images from the webcam.
 
---Press 'q' to stop the image capture process.
+- Press 'q' to stop the image capture process.
 
---The captured images will be saved in a directory named after the employee's name. Each angle's images will be stored in separate subdirectories.
+- The captured images will be saved in a directory named after the employee's name. Each angle's images will be stored in separate subdirectories.
 
 ## Notes
---Make sure to have a webcam connected and properly configured.
+- Make sure to have a webcam connected and properly configured.
 
---Adjust the num_images_per_angle variable in the code to control the number of images captured for each angle.
+- Adjust the num_images_per_angle variable in the code to control the number of images captured for each angle.
 
---The captured images will be saved in the same directory as the capture_images.py file.
+- The captured images will be saved in the same directory as the capture_images.py file.
 
---The images will be named following the format: employee_angle_imageIndex.jpg.
+- The images will be named following the format: employee_angle_imageIndex.jpg.
 
---Please ensure that you have the necessary permissions and legal rights to capture and store employee face images.
+- Please ensure that you have the necessary permissions and legal rights to capture and store employee face images.
